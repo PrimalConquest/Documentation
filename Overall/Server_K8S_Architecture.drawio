@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 OPR/127.0.0.0" version="29.6.3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="4AWWvHgVEla_BcLEfrX8">
-    <mxGraphModel dx="1857" dy="1203" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="1383" dy="986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,6 +284,101 @@
         </mxCell>
         <mxCell id="ZB7wJJ8VdnBCBuJSdAOW-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="End" vertex="1">
           <mxGeometry height="60" width="120" x="1258" y="492" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-36" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Wait on Connections" vertex="1">
+          <mxGeometry height="60" width="120" x="2240" y="-38" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-50" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-9" value="Move Command">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Wait command" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="313" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-8" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Apply Move" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="422" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-11" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Simulate" vertex="1">
+          <mxGeometry height="60" width="120" x="2117.92" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-13" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2059" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Trigger Rewards" vertex="1">
+          <mxGeometry height="60" width="120" x="2117.92" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-18" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ack Match" vertex="1">
+          <mxGeometry height="60" width="120" x="2117.92" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Advanced Server Flow" vertex="1">
+          <mxGeometry height="30" width="171" x="2024" y="-167" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Start" vertex="1">
+          <mxGeometry height="60" width="120" x="2209" y="-207" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="End" vertex="1">
+          <mxGeometry height="60" width="120" x="1940" y="582" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-38" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="pah4KtSUw1BL8-HPowUu-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Read Joined Player Data" vertex="1">
+          <mxGeometry height="60" width="120" x="2240" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-46" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Setup Board" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="-38" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-39" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-40" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Check All Players Joined" vertex="1">
+          <mxGeometry height="60" width="120" x="2240" y="176" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-47" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Decide Starting Player turn" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="54" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-49" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Give Board Control" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-48" edge="1" parent="1" source="pah4KtSUw1BL8-HPowUu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pah4KtSUw1BL8-HPowUu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Refill Moves" vertex="1">
+          <mxGeometry height="60" width="120" x="2439" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="End Turn Command" vertex="1">
+          <mxGeometry height="30" width="60" x="2208" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Summon Officer Command" vertex="1">
+          <mxGeometry height="30" width="60" x="2208" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="pah4KtSUw1BL8-HPowUu-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Retreat Officer Command ????" vertex="1">
+          <mxGeometry height="30" width="60" x="2089" y="257" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
